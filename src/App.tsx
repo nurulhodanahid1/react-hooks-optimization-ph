@@ -4,6 +4,7 @@ import './App.css'
 import FormState from './FormState'
 import UseReducerExample from './UseReducerExample'
 import UseReducerFormExample from './UseReducerFormExample'
+import UseEffectExample from './UseEffectExample'
 
 function App() {
   const [counter, setCounter] = useState(0)
@@ -14,6 +15,7 @@ function App() {
       <FormState />
       <UseReducerExample />
       <UseReducerFormExample />
+      <UseEffectExample />
     </>
   )
 }
